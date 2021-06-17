@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNews</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/monitor.png" alt="TechNews Logo" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="#">SOBRE REDES</a>
+        </li>
+
+        <li>
+          <a href="index.html" class="m1 m11">Inicio</a>
+        </li>
+      </ul>
+
+      <!-- Right Nav -->
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- SHOWCASE -->
+    <!--
+    <header class="showcase">
+      <h2>Nosotros!</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolor laudantium rerum, excepturi est praesentium
+        natus qui? Tempora rerum, numquam inventore eligendi in, nostrum reprehenderit, eum cumque fugit eaque
+        similique!</p>
+      <a href="#" class="btn">
+        SignUp <i class="fas fa-chevron-right"></i>
+      </a>
+    </header>
+  -->
+    <header class="titulo">
+      <h2 class="tituloprincipal">
+        CAPAS DE MODELO TPC/IP
+      </h2>
+    </header>
+
+    <div class="texto2">
+      <h3>1. Capas de enlace de red</h3>
+      <p>
+      Esta capa define el acceso físico de los equipos conectados a la red y los protocolos que 
+      en él intervienen. incluye todos los hosts accesibles en una red de área local. Esta 
+      también define la topología de la red, estrella, malla, anillo, etc, y como se mueven los 
+      paquetes entre las interfaces de la capa de Internet. </br>
+      A pesar de que está definido sobre una red de área local, TCP/IP es extensible a toda la 
+      red global, por estar diseñado de forma independiente del hardware que compone la red. Por 
+      ello redes de cables de pares trenzados, coaxiales, fibra óptica o incluso redes 
+      inalámbricas entran dentro de este modelo y utilizando estos protocolos. </p>
+      
+      <h3></br>2. Capas de Internet</h3>
+      <p>
+      Una de las capas más importantes en el modelo por ocuparse de la estructura del paquete de 
+      datos básico que circula por la red y de cómo enviarlos a través de la red. La capa de 
+      Internet define entonces cómo será el enrutamiento de los datagramas a partir de la 
+      administración de las direcciones IP.</br>
+      Por esto la otra función básica de la capa es la identificación del host en la red 
+      mediante una dirección y el direccionamiento de estos datagramas dando saltos entre 
+      enrutadores hasta llegar al destino. Es aquí en donde trabaja el protocolo IP, así como 
+      otros protocolos muy conocidos como IGMP, ICMP o ARP. </p>
+      
+      <h3></br>3. Capas de transporte</h3>
+      <p>
+      En la capa de transporte es donde tienen protagonismo los puertos lógicos de un router, 
+      ya que es la capa que establece los canales básicos que utilizarán las aplicaciones para 
+      intercambiar información entre dos puntos. Por tanto, la capa define como será la conexión 
+      de un host a otro, asociando un puerto a un tipo de aplicación a su vez con un tipo de 
+      datos.</br>
+      En esta capa hay protocolos que se encargan de la segmentación de paquetes, del control de 
+      errores y el control de flujo de estos. El protocolo TCP opera en esta capa, siendo un de 
+      tipo orientado a conexión, mientras que el otro quizás más importante es el UDP que no es 
+      orientado a conexión. Veremos luego sus diferencias.</p>
+      
+      <h3></br>4. Capas de aplicación</h3>
+      <p>
+      Esta es la capa más cercana al usuario, y la que define los protocolos que usarán las 
+      aplicaciones que proporcionan servicios al usuario. Estas aplicaciones se comunican 
+      entre ellas con la estructura definida en las 3 capas inferiores, proporcionando su 
+      propio encapsulamiento según tipo de aplicación que sea y el tipo de dato con el que 
+      trabaja.</br>
+      En esta capa es donde encontramos algunos protocolos muy famosos como son el HTTP de las 
+      páginas web, el FTP para la transferencia de archivos, DHCP como protocolo de configuración 
+      dinámica de host o el SMTP para la transferencia de correos. </p>
+    </div>
+
+       <!-- third card -->
+       <section class="cards-banner-two">
+        <div class="content">
+          <h2>Puntos de ventas TPC/IP.</h2>
+          <!-- lorem 30 -->
+          <p>Consigue el equipo de punto de venta que prefieras, de la marca que prefieras y en las 
+            condiciones que te gustan.</p>
+          <a href="https://listado.mercadolibre.com.ve/puntos-de-venta-tcp-ip" class="btn">Compralo ya <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+
+      <div class="titulo-m">
+        <h3 class="titulo-medio">Noticias</h3>
+      </div>
+
+    <!-- NEWS CARDS -->
+    <div class="news-cards">
+      <div>
+        <img src="img/news1.jpg" alt="" />
+        <h3>La NASA descubre.</h3>
+        <p>los científicos de la NASA descubren un desequilibrio energético de la tierra: "las 
+          tendencias que encontramos fueron demasiado alarmantes" </br>
+          Un estudio revela que desequilibrio energético de la Tierra se ha duplicado en los 
+          últimos 14 años.
+        </p>
+        <a href="https://www.20minutos.es/noticia/4733342/0/cientificos-nasa-descubren-desequilbrio-energetico/">Leer Más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news22.jpg" alt="" />
+        <h3>Suministro de Energía</h3>
+        <p>El suministro de energía llega al espacio: dos astronautas instalan paneles solares 
+          en la Estación Espacial Internacional. </br>
+          En total se van a instalar seis paneles solares, dos de ellos se colocarán este 
+          domingo y los restantes llegarán a la base orbital para completar el proyecto.
+        </p>
+        <a href="https://www.20minutos.es/tecnologia/actualidad/el-suministro-de-energia-llega-al-espacio-dos-astronautas-instalan-panales-solares-en-la-estacion-espacial-internacional-4733187/">Leer Más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news33.jpg" alt="" />
+        <h3>La luna de planetas gigantes</h3>
+        <p>O expoplanetas templados: alguno de los destinos a los que 
+          llegará la próxima frase de la exploración espacial.</br>
+          Las misiones científicas se centrarán en las lunas de los 
+          planetas gigantes del Sistema Solar, los exoplanetas templados o el ecosistema 
+          galáctico.
+        </p>
+        <a href="https://www.20minutos.es/minuteca/nasa/">Leer Más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/news44.jpg" alt="" />
+        <h3>La NASA desarrolla telescopio</h3>
+        <p>La NASA esta desarrollando un telescopio espacial que caza asteroides. </br>
+          El NEO Surveyor será capaz de detectar y caracterizar el 90% de asteroides u otros 
+          objetos de más de 140 metros de tamaño y determinar si son potencialmente peligrosos.
+        </p>
+        <a href="https://www.20minutos.es/minuteca/nasa/">Leer Más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+
+
+
+  <!-- Footer Links -->
+  <div class="footer-links">
+    <div class="footer-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title One</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Two</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Three</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Title Four</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Blockchain</a>
+        </li>
+        <li>
+          <a href="#">Machine Learning</a>
+        </li>
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        <li>
+          <a href="#">Quantum Computing</a>
+        </li>
+        <li>
+          <a href="#">Startup</a>
+        </li>
+        <li>
+          <a href="#">Cryptocurrencies</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>Desarrollado por FRANGELI PARADA</h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
