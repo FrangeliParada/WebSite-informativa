@@ -1,6 +1,5 @@
 # Modelo  TCP/IP
-! [] (./screenshot.png)
-
+!  [] (./screenshot.png)
 # Recomendations
 * Minimize the size of Images
 * put a favicon
